@@ -28,7 +28,7 @@ export function TodoTag({ title, classes }: ITodoTag) {
         styles.todoTag,
         classes,
         'inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset',
-        isActive ? styles.active : ''
+        { [styles.active]: isActive }
       )}
       onClick={handleClick}>
       {title}
