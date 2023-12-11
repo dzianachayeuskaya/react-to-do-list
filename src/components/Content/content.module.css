@@ -1,0 +1,9 @@
+ .animation {
+   margin-top: -20px;
+ }
+
+ @media (min-width: 640px) {
+   .animation {
+     margin-top: -60px;
+   }
+ }

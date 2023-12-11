@@ -1,0 +1,43 @@
+.svgWrapper > svg {
+  display: flex;
+}
+
+.svg12 {
+  width: 12px;
+  height: 12px;
+}
+
+.svg14 {
+  width: 14px;
+  height: 14px;
+}
+
+.svg15 {
+  width: 15px;
+  height: 15px;
+}
+
+.svg16 {
+  width: 16px;
+  height: 16px;
+}
+
+.svg17 {
+  width: 17px;
+  height: 17px;
+}
+
+.svg18 {
+  width: 18px;
+  height: 18px;
+}
+
+.svg19 {
+  width: 19px;
+  height: 19px;
+}
+
+.svg20 {
+  width: 20px;
+  height: 20px;
+}

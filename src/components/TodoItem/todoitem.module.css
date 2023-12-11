@@ -1,0 +1,27 @@
+.todoItemWrapper:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.todoItemInput {
+  cursor: default;
+}
+
+.todoItemInput:focus-visible {
+  background-color: transparent;
+  color: var(--primary-dark-color);
+}
+
+.todoItemInput:disabled {
+  background-color: transparent;
+  color: var(--secondary-dark-color);
+}
+
+.editBtn:disabled {
+  cursor: not-allowed;
+}
+
+@media (min-width: 640px) {
+  .todoItemWrapper:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}

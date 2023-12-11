@@ -1,0 +1,26 @@
+.todoTag:active {
+  outline: unset;
+}
+
+.todoTag.active,
+.todoTag.active:active {
+  background-color: var(--light-pink-color);
+  color: var(--active-pink-color);
+  outline: unset;
+}
+
+.todoTag.active:focus-visible {
+  outline: 2px solid var(--active-pink-color)
+}
+
+@media (min-width: 768px) {
+  .todoTag:hover {
+    outline: unset;
+  }
+
+  .todoTag.active:hover {
+    background-color: var(--light-pink-color);
+    color: var(--active-pink-color);
+    outline: unset;
+  }
+}

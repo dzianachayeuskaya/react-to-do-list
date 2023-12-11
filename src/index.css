@@ -1,13 +1,40 @@
+:root {
+  --primary-dark-color: rgb(32, 36, 39);
+  --primary-light-color: rgb(255, 255, 255);
+  --secondary-dark-color: rgb(143, 153, 163);
+  --secondary-light-color: rgb(224, 230, 236);
+  --active-orange-color: rgb(255, 109, 36);
+  --light-orange-color: rgb(255, 160, 118);
+  --active-pink-color: rgb(202, 93, 239);
+  --light-pink-color: rgb(232, 219, 251);
+  --active-red-color: rgb(239, 93, 93);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  position: relative;
+  padding: 0 0 20px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: var(--grayF4);
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Inter var', serif;
+}
+
+* {
+  color: var(--primary-dark-color);
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button[type='submit'] {
+  background-color: var(--active-orange-color);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--active-orange-color);
 }

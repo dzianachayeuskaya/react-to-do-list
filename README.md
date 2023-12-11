@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# ToDoList
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application will allow you to organize your tasks and maintain a to-do list.
 
 ## Available Scripts
 
@@ -14,33 +14,37 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Creation**
 
-### `npm run eject`
+To create a new case, you need to enter its description in the form. The case name must contain at least 4 characters. Adding to the list occurs by clicking on the Submit button or pressing Enter.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Editing**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The description of a new task can be edited by clicking on the Pencil button; after changing the content of the task, saving occurs by clicking on Enter or by clicking outside the task. To-dos marked as completed become unavailable for editing. To make changes, you must uncheck the "Done" checkbox.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Working with tags**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+While creating and editing a note, the user can create tags using the # symbol. When editing a note, all words corresponding to tags are highlighted (the # symbol is added to the tag words). It is also possible to add new tags, delete old ones, and edit existing tags when editing the task description.
 
-## Learn More
+**Performance**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can mark the completion of a task by clicking on the checkbox. Removing the progress status is implemented in the same way.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Removal**
+
+The task is deleted by clicking the Bin button.
+
+**Displaying tasks of interest**
+
+When creating and editing a note, it is possible to add new tags using the # symbol. All words corresponding to tags are highlighted when editing a note (the # symbol is added to the tag words). It is also possible to delete old and edit existing tags.
+
+**Save on reboot**
+
+When the page is reloaded, the tasks are saved.
