@@ -2,22 +2,7 @@
 
 This application will allow you to organize your tasks and maintain a to-do list.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app is available here: https://dzianachayeuskaya.github.io/react-to-do-list/
 
 ## Usage
 
@@ -48,3 +33,20 @@ When creating and editing a note, it is possible to add new tags using the # sym
 **Save on reboot**
 
 When the page is reloaded, the tasks are saved.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
